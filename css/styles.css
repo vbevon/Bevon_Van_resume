@@ -1,0 +1,73 @@
+#Welcome {
+	background: rgb(198, 98, 98);
+	background: linear-gradient(
+		90deg,
+		rgba(198, 98, 98, 1) 17%,
+		rgba(184, 33, 33, 1) 100%
+	);
+	background-size: cover;
+	min-height: 600px;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	color: azure;
+	z-index: 10;
+	display: table;
+}
+
+.backGround {
+	background: rgb(198, 98, 98);
+	background: linear-gradient(
+		90deg,
+		rgba(198, 98, 98, 1) 17%,
+		rgba(184, 33, 33, 1) 100%
+	);
+	color: azure;
+	margin: 1%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.welcomeContent {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.About {
+	text-align: justify;
+	padding: 10%;
+}
+
+.boxDiv {
+	background: rgb(198, 98, 98);
+	background: linear-gradient(
+		90deg,
+		rgba(198, 98, 98, 1) 17%,
+		rgba(184, 33, 33, 1) 100%
+	);
+	padding: 2%;
+	color: azure;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Portfolio {
+	background: rgb(198, 98, 98);
+	background: linear-gradient(
+		90deg,
+		rgba(198, 98, 98, 1) 17%,
+		rgba(184, 33, 33, 1) 100%
+	);
+	padding: 2% 10%;
+	margin: 1%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portItem {
+	margin: 2% 0;
+	background-color: azure;
+	border-radius: 5px;
+	padding-left: 0;
+	margin-left: 0;
+}
