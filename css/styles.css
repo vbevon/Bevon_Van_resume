@@ -1,3 +1,4 @@
+/* Welcome div styling. */
 #Welcome {
 	background: rgb(198, 98, 98);
 	background: linear-gradient(
@@ -15,7 +16,14 @@
 	display: table;
 }
 
-.backGround {
+/* Projects section styling. */
+#Portfolio {
+	padding: 2% 10%;
+	color: black;
+}
+
+/* Background styling for color divs. */
+.background {
 	background: rgb(198, 98, 98);
 	background: linear-gradient(
 		90deg,
@@ -28,16 +36,19 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Positioning for welcome div content. */
 .welcomeContent {
 	display: table-cell;
 	vertical-align: middle;
 }
 
-.About {
+/* Styling for the div sections. */
+.sectionStyling {
 	text-align: justify;
 	padding: 10%;
 }
 
+/* Styling for About section. */
 .boxDiv {
 	background: rgb(198, 98, 98);
 	background: linear-gradient(
@@ -51,19 +62,7 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#Portfolio {
-	background: rgb(198, 98, 98);
-	background: linear-gradient(
-		90deg,
-		rgba(198, 98, 98, 1) 17%,
-		rgba(184, 33, 33, 1) 100%
-	);
-	padding: 2% 10%;
-	margin: 1%;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
+/* Styling for Project item display. */
 .portItem {
 	margin: 2% 0;
 	background-color: azure;
